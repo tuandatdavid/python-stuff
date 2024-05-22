@@ -6,4 +6,4 @@ pi=math.pi
 def obsahkruhu(hema):
     vysledek=(math.pi*hema*hema)
     return vysledek
-print(obsahkruhu(hema))
+print("Obvod kružnice je",obsahkruhu(hema),"cm")
