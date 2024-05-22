@@ -1,10 +1,9 @@
 print("Hello, World")
 import math
-hem=input("R kružnice")
-hem=hem(int)
+rkruznice=input("R kružnice:")
+hema=int(rkruznice)
 pi=math.pi
-print(pi)
-def obsahkruhu(hem):
-    vysledek=(math.pi*hem*hem)
+def obsahkruhu(hema):
+    vysledek=(math.pi*hema*hema)
     return vysledek
-print(obsahkruhu())
+print(obsahkruhu(hema))
