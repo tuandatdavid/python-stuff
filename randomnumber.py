@@ -10,4 +10,6 @@ def check(random_number):
         elif vysledek == random_number:
             print("you did it")
     except:
+        if ValueError:
+            print("bruh")
 check(random_number)
