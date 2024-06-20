@@ -5,6 +5,7 @@ print(random_number)
 def check(random_number):
     try:
         vysledek=input("type it:")
+        vysledek=int(vysledek)
         if vysledek < random_number:
             raise ValueError("too low")
         elif vysledek == random_number:
